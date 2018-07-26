@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_to_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="服务"/>
+    <Button
+        android:id="@+id/btn_to_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="广播"/>
+
+    <Button
+        android:id="@+id/btn_to_addlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加数据"/>
+
+    <me.codeboy.android.aligntextview.AlignTextView
+        android:id="@+id/tvtextttt"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="将拨通移动公证录音专线号码进行通话录音取证，运营商将收取正常市话费。"
+        android:textColor="#cccccc"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"/>
+</LinearLayout>
